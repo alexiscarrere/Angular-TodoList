@@ -87,12 +87,19 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/material-design-icons/iconfont/material-icons.css",
+              "node_modules/materialize-css/dist/css/materialize.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/materialize-css/dist/js/materialize.min.js"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "12c069ac-9660-4b10-9b23-cac0d891cbb8"
   }
 }
